@@ -1,0 +1,18 @@
+# venv & caches
+.venv/
+__pycache__/
+*.pyc
+
+# env & secrets
+.env
+.env.*
+
+# local DB / logs
+sync_data.db
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
